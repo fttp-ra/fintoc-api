@@ -12,7 +12,7 @@ app.use(morgan('dev'));
 app.use(bodyParser.json());
 
 app.get('/', (req,res) => {
-    res.render('./pages/index');
+    res.render('pages/index');
 })
 
 const Authorization = keys.SECRET_KEY;
